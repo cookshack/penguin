@@ -122,7 +122,7 @@ const ffmpeg = spawn('ffmpeg',
                        'libx264',
                        '-crf',
                        '18',
-                       'output.mp4' ])
+                       'penguin.mp4' ])
 */
 
 /*
@@ -148,7 +148,7 @@ const ffmpeg = spawn('ffmpeg',
                        'aac',
                        '-b:a',
                        '128k',
-                       'output.mp4' ])
+                       'penguin.mp4' ])
 */
 
 // Use ffmpeg to generate the video with the MP3 file playing in the background
@@ -176,7 +176,7 @@ const ffmpeg = spawn('ffmpeg',
                        '-shortest',
                        '-s',
                        `${width}x${height}`,
-                       'output.mp4' ])
+                       'penguin.mp4' ])
 
 /*
 const readableStream = new Readable({
@@ -207,7 +207,7 @@ ffmpeg.stderr.on('data', data => {
 
 ffmpeg.on('close', code => {
   console.log(`ffmpeg exited with code ${code}`)
-  console.log('output.mp4 has been generated')
+  console.log('penguin.mp4 has been generated')
   process.exit(code)
 })
 
