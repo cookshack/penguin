@@ -5,8 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "check": "./node_modules/@cookshack/build/bin/check *.js",
+    "prepare": "./node_modules/@cookshack/build/bin/prepare",
     "start": "node .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0"
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,11 @@
   "dependencies": {
     "canvas": "^3.1.0",
     "nan": "^2.22.1"
+  },
+  "devDependencies": {
+    "@cookshack/build": "^0.2.0",
+    "@cookshack/eslint-config": "^0.1.6",
+    "husky": "^9.1.7",
+    "rollup": "^4.34.9"
   }
 }
