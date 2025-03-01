@@ -4,4 +4,4 @@ A quick script for creating an [overview video](https://www.youtube.com/watch?v=
 
 1. `npm i`
 2. Copy the penguin MP3 to `penguin.mp3` (it's `Joh171.mp3` from the jazz-on-line collection)
-3. `rm -f output.mp4 && npm start`
+3. `rm -f penguin.mp4 && npm start`
