@@ -1,0 +1,9 @@
+*~
+*.bak
+*.BAK
+*.rej
+*.orig
+/node_modules
+/dist
+penguin.mp3
+penguin.mp4
