@@ -1,0 +1,21 @@
+{
+  "name": "@cookshack/penguin",
+  "version": "0.1.0",
+  "description": "Create analysis video for Ambrose's The Penguin",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git.sr.ht/~mattmundell/penguin"
+  },
+  "author": "Matt Mundell",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "canvas": "^3.1.0",
+    "nan": "^2.22.1"
+  }
+}
